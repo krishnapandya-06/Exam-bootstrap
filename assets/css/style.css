@@ -1,0 +1,78 @@
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+    display: inline-block;
+    width: 2rem;
+    height: 2rem;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    color: black !important;
+    background-color:#dc3545 !important;
+    padding: 20px !important;
+    border-radius: 50%;
+}
+.carousel-control-next,
+.carousel-control-prev {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15%;
+    padding: 10px;
+    color: #000000;
+    text-align: center;
+    background: 0 0;
+    border: 0;
+}
+img{
+  width: 100%;
+}
+img{
+  background-position: center;
+}
+/* accordion */
+.accordion-button:not(.collapsed) {
+  color: #1e1b23 !important;
+  background-color: #e9eaeb !important;
+  box-shadow: none !important;
+  font-weight: 700;
+  font-size: 18px ;
+  letter-spacing: .02rem;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+.accordion-button{
+  color: #1e1b23 !important;
+  box-shadow: none !important;
+  font-weight: 700;
+  font-size: 18px ;
+  letter-spacing: .02rem;
+}
+.accordion-button::after {
+  content: "";
+  color: #1e1b23 !important;
+  font-weight: 900 !important;
+  font-size: 20px;
+}
+.accordion-item {
+    color: var(--bs-accordion-color);
+    background-color: var(--bs-accordion-bg);
+    /* border:1px solid black !important; */
+}
+.accordion-body{
+  color: #676369 !important;
+  font-size: 20px;
+  letter-spacing: .02em;
+  text-align: start;
+  font-weight: 500;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.image-grid{
+  transition: all .3s linear !important;
+}
+.image-grid img:hover{
+  transition: all .3s linear !important;
+  scale: 1.1;
+}
